@@ -49,7 +49,7 @@ const ListingSchema = new mongoose.Schema(
       kitchen:        { type: Boolean, default: false }
       // add more toggles here when you introduce new ones
     },
-    validPics:        { type: Boolean, default: false },AIGenpics:        { type: Boolean, default: false },
+    validPics: [Boolean],AIGenpics: [Boolean],
     /* ───────── OWNER / USER ───────── */
     userKey: { type: String, required: true }, // the ad owner’s key / auth ID
     userType: String,
