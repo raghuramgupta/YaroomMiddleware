@@ -46,7 +46,11 @@ const ListingSchema = new mongoose.Schema(
       TV:             { type: Boolean, default: false },
       Fridge:         { type: Boolean, default: false },
       WashingMachine: { type: Boolean, default: false },
-      kitchen:        { type: Boolean, default: false }
+      kitchen:        { type: Boolean, default: false },
+      AirConditioner: { type: Boolean, default: false },
+      SwimmingPool:   { type: Boolean, default: false },
+      Gym:            { type: Boolean, default: false },
+      
       // add more toggles here when you introduce new ones
     },
     validPics: [Boolean],AIGenpics: [Boolean],
